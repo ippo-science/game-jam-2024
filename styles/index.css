@@ -13,7 +13,7 @@
 /*}*/
 @font-face {
     font-family: 'LiberationMono', monospace;
-    src: url("fonts/LiberationMono-Regular.ttf
+    src: url("fonts/LiberationMono-Regular.ttf") format('truetype');
 }
 *{
     /*box-sizing: border-box;*/
@@ -37,7 +37,7 @@ body{
     display: flex;
     flex-direction: column;
     background-color: rgba(0, 0, 0, .95);
-    background-image: url("imgs/white-painted-wall-texture-background.svg");
+    background-image: url("../imgs/white-painted-wall-texture-background.svg");
     background-blend-mode: darken;
 
 }
